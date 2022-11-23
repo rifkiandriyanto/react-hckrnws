@@ -1,0 +1,32 @@
+@import "./_variable.scss";
+@import "./globals";
+
+.single-container {
+//   border: 1px solid gray;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 70rem;
+  padding: 0.6rem 0.6rem 0.6rem 0;
+  margin: 1rem auto;
+  border-radius: $border-radius;
+  .index-number {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0 1rem;
+  }
+  .link {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .subtext {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    .author {
+      text-transform: capitalize;
+    }
+  }
+}
