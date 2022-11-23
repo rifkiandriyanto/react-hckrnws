@@ -4,21 +4,22 @@ $text-secondary-color-dark: #adb5bd;
 $text-primary-color-light: #343a40;
 $text-secondary-color-light: #495057;
 $bg-color-dark: #21262d;
-$bg-color-light: #e9ecef;
+$bg-color-light: #ffffff;
 $button-bg-color: transparent;
 $button-bg-hover-color: #80a5d1;
 $button-color-dark: #dee2e6;
 $button-color-light: rgb(95, 91, 91);
-$card-bg-light: #f8f9fa;
+$card-bg-light: rgb(235, 233, 233);
 $card-bg-dark: #2D333A;
 $slider-bg-light: #495057;
 $slider-bg-dark: #e6e8eb;
 $search-btn-bg: #4c8b51;
 $search-btn-text-light: #e6e8eb;
 $search-btn-bg-dark: #e6e8eb;
-
 $border-radius: 0.25rem;
 $transition: all 0.3s linear;
+$hover-light: #D1D5DA;
+$hover-dark: #6e6f70;
 
 @mixin button-features {
   transition: $transition;
@@ -30,8 +31,4 @@ $transition: all 0.3s linear;
   text-transform: uppercase;
   font-weight: 600;
   background-color: $button-bg-color;
-
-  &:hover {
-    background-color: $button-bg-hover-color;
-  }
 }
